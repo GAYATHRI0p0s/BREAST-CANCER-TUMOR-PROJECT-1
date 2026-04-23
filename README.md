@@ -42,3 +42,11 @@ I followed the 10-stage lifecycle:
 The Confusion Matrix below shows our SVM model's performance on the test set:
 
 ![Confusion Matrix](confusion_matrix.png)
+
+### Deployment Screenshots
+
+#### Benign Prediction
+![Benign Prediction](Benign.png)
+
+#### Malignant Prediction
+![Malignant Prediction](Malignant.png)
