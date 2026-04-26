@@ -52,5 +52,5 @@ The Confusion Matrix below shows our SVM model's performance on the test set:
 #### Malignant Prediction
 ![Malignant Prediction](Malignant.png)
 
-6. Live Deployment
+## 6. Live Deployment
 [View Live Streamlit App Here](https://breast-canser-tumor-project-1-3tpqeaxb3vbvnwrdpr44hq.streamlit.app/)
