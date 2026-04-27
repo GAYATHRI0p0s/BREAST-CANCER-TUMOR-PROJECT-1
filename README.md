@@ -1,4 +1,4 @@
-# BREAST-CANSER-TUMOR-PROJECT-1
+# BREAST-CANCER-TUMOR-PROJECT-1
 # Breast Cancer Classification Project
 
 **Student Name:** GAYATHRI PS, APARNA.V
