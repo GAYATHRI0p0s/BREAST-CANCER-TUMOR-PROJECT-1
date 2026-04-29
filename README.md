@@ -26,6 +26,9 @@ I followed the 10-stage lifecycle:
 
 * **Best Model:** **RANDOM FOREST** with ~97% accuracy.
 * **Preprocessing:** Applied StandardScaler to normalize clinical features for better model convergence.
+
+## 4. Exploratory Data Analysis
+
 ## 4. Results & Comparison
 
 | Model | Accuracy | Recall |
