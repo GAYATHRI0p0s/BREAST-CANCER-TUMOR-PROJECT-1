@@ -41,6 +41,7 @@ I followed the 10-stage lifecycle:
 * Strong correlation between radius, perimeter, area
 * Key features influence tumor classification
 * Helps understand feature relationships
+  
 ![Correlation Heatmap](EDA_correlation.png)
 
 ## 5. Results & Comparison
