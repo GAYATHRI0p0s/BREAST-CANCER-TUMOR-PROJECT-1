@@ -36,6 +36,12 @@ I followed the 10-stage lifecycle:
 * Suitable for classification
   
 ![Class Distribution](EDA_distribution.png)
+## Dimensionality Reduction using PCA
+### Output
+```python
+Original Shape: (455, 30)
+PCA Shape: (455, 10)
+## Explained Variance Graph
 
 ### Correlation Heatmap
 * Strong correlation between radius, perimeter, area
