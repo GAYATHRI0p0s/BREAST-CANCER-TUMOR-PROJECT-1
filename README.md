@@ -28,20 +28,19 @@ I followed the 10-stage lifecycle:
 
 * **Best Model:** **RANDOM FOREST** with ~97% accuracy.
 * **Preprocessing:** Applied StandardScaler to normalize clinical features for better model convergence.
+## 4. Dimensionality Reduction using PCA
 
-## 4. Exploratory Data Analysis
+- Total Variance Retained: **0.9520691014391005**
+
+![Explained Variance Graph](PCA.png)
+
+## 5. Exploratory Data Analysis
 ### Class Distribution
 * Slightly more benign cases than malignant
 * Dataset is fairly balanced
 * Suitable for classification
   
 ![Class Distribution](EDA_distribution.png)
-## Dimensionality Reduction using PCA
-### Output
-```python
-Original Shape: (455, 30)
-PCA Shape: (455, 10)
-## Explained Variance Graph
 
 ### Correlation Heatmap
 * Strong correlation between radius, perimeter, area
@@ -50,7 +49,7 @@ PCA Shape: (455, 10)
   
 ![Correlation Heatmap](EDA_correlation.png)
 
-## 5. Results & Comparison
+## 6. Results & Comparison
 
 | Model | Accuracy | Recall |
 
@@ -62,13 +61,13 @@ PCA Shape: (455, 10)
 
 | SVM| 96.49% | 93.48%|
 
-## 6. Model Interpretation
+## 7. Model Interpretation
 
 The confusion matrix below shows the performance of the best-performing model (Random Forest) on the test dataset.
 
 ![Confusion Matrix](Confusion_Matrix.png)
 
-## 7. Deployment Screenshots
+## 8. Deployment Screenshots
 
 ### Benign Prediction
 ![Benign Prediction](Benign.png)
@@ -76,5 +75,5 @@ The confusion matrix below shows the performance of the best-performing model (R
 ### Malignant Prediction
 ![Malignant Prediction](Malignant.png)
 
-## 8. Live Deployment
+## 9. Live Deployment
 [View Live Streamlit App Here](https://breast-canser-tumor-project-1-3tpqeaxb3vbvnwrdpr44hq.streamlit.app/)
